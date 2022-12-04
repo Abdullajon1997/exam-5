@@ -1,0 +1,49 @@
+.nav {
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(173, 165, 165);
+    background-color: white;
+    position: sticky;
+    padding-top: 15px;
+    top: 0;
+
+
+    &__inner {
+        margin-bottom: 25px;
+
+        &__list {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 36px;
+            color: var(--color-fg-default);
+
+            &__item {
+                &__navlink {
+                    text-decoration: none;
+                    color: var(--color-fg-default);
+
+                    &__div {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 5px;
+                    }
+
+                    &__p {
+                        margin: 0;
+                        padding: 0;
+
+                    }
+                }
+
+                &__img {
+                    width: 17px;
+                    height: 17px;
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.owerview
+{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 32px;
+        margin-bottom: 8px;
+        margin-top: 30px;
+        &__title
+        {
+            font-size: 16px;
+            margin: 0;
+            color: rgb(100, 94, 94);
+        }
+        &__p
+        {
+            margin: 0;
+            font-size: 12px;
+        }
+    }
+}
+.owerview__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    &__item {
+        border: 1px solid;
+        border-radius: 5px;
+        width: 406px;
+        padding: 10px;
+
+        &__div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__name
+            {
+                font-size: 20px;
+                color: rgb(85, 85, 218);
+            }
+
+            &__public {
+                display: block;
+                border: 1px solid;
+                border-color: var(--color-border-default);
+                color: var(--color-fg-muted);
+                border-radius: 10px;
+                padding: 0px 5px;
+                font-size: 12px;
+            }
+        }
+        &__language
+        {
+            font-size: 15px;
+        }
+    }
+}

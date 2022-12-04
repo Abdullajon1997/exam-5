@@ -1,0 +1,41 @@
+.follower__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &__item {
+        width: 896px;
+        border-bottom: 1px solid rgb(173, 165, 165);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__btn
+        {
+            padding: 3px 12px;
+            border: inherit;
+            border-radius: 5px;
+        }
+
+        &__inner {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 25px;
+            padding: 25px;
+        }
+
+        &__login {
+            display: block;
+            margin: 0;
+            text-decoration: none;
+            color: black;
+        }
+
+        &__img {
+            display: block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    }
+}
